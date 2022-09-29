@@ -191,6 +191,7 @@ h4 {
   justify-items: center;
   background-color: whitesmoke;
   width: 100%;
+  border: 5px solid black;
   
 }
 .other-card-project {
@@ -239,7 +240,7 @@ display: inline;
 }
 
 .card-project:hover {
-  opacity: 0.6;
+ 
   animation-name: scale;
   animation-duration: 0.8s;
   animation-iteration-count: 1;
