@@ -219,7 +219,13 @@ margin: 10px 0;
 font-size: 1.25rem;
 line-height: 1.25;
 }
-
+.other-github{
+  cursor: pointer;
+  margin: 0 10px;
+  font-family: "Font Awesome 5 Brands";
+  font-size: 2rem;
+  color: black;
+}
 .card-project img {
   width: 100%;
 }
