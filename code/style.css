@@ -258,18 +258,16 @@ display: inline;
   margin: 50px auto 20px auto;
   width: 100%;
   justify-content: center;
-  
-  
 }
 .list{
-  width:50%;
+  width:100%;
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  
+  margin-inline-end: 0px; 
 }
+
 .list h4{
   margin: 10px 0;
 }
@@ -336,6 +334,9 @@ margin-bottom: 30px;
 
 @media (min-width: 750px){
 
+ .list {
+   width: 50%;
+ } 
 .contact-container h4{
   font-size: 2.5rem;
 
